@@ -36,7 +36,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="52dp"
         android:ems="10"
-        android:hint="Enter pin"
+        android:hint="Enter your pin"
         android:inputType="numberPassword"
         app:layout_constraintEnd_toEndOf="@+id/editTextText3"
         app:layout_constraintHorizontal_bias="0.0"
