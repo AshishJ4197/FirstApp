@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="#E3BD85"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
@@ -25,8 +26,10 @@
         android:layout_marginTop="72dp"
         android:layout_marginEnd="136dp"
         android:ems="10"
-        android:hint="Enter your name"
+        android:hint="@string/enterName"
         android:inputType="text"
+        android:textSize="20sp"
+        android:textColor="@color/myColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,6 +41,7 @@
         android:ems="10"
         android:hint="Enter your pin"
         android:inputType="numberPassword"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/editTextText3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextText3"
@@ -49,7 +53,9 @@
         android:layout_height="50dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="68dp"
-        android:text="login"
+        android:text="Login"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword3"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
